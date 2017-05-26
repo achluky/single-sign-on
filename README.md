@@ -2,7 +2,7 @@
 application for management user in institut teknologi sumatera
 contoh : implementasi pada journal.php
 
-# data result
+# contoh data result
 ``` javascript
 	
 object(stdClass)#3 (9) {
