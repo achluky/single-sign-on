@@ -46,20 +46,19 @@ class Oauth2_client {
     }
 
     public function access_user_resources( $provider_uri, $acces_token, $http_method = 'GET', $more_args = array() ){
-
         $args['access_token']  = $acces_token;
         $args['scope']  = $this->scope;
-
         if( ! empty($more_args) )
             foreach($more_args as $key => $val)
                 $args[$key] = $val;
-
         $url = $provider_uri.'?'.http_build_query($args);
-        // echo $url;
-        return $this->CI->rest->send_request($url, $http_method, $args);
+        return array('url'=>$url, 'args'=>$args);
     }
 }
 
 
 
 $oauth = oauth2_client::getInstance();
+$oauth->client_id =$client_id;
+$oauth->client_secret =$client_secret;
+$oauth->redirect_uri =$redirect_uri;
