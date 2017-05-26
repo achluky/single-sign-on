@@ -1,8 +1,7 @@
-# single-sign-out
+# SSO ITERA
 application for management user in institut teknologi sumatera
 contoh : implementasi pada journal.php
-
-# contoh data result
+contoh data result
 ``` html
 	
 object(stdClass)#3 (9) {
@@ -54,3 +53,5 @@ object(stdClass)#3 (9) {
 }
 
 ```
+
+data digunakan oleh setiap aplikasi untuk mengidentifikasikan level/hak akses suatu user
