@@ -1,6 +1,7 @@
 # SSO ITERA
 application for management user in institut teknologi sumatera
 contoh : implementasi pada journal.php
+
 contoh data result
 ``` html
 	
