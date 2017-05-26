@@ -3,7 +3,7 @@ application for management user in institut teknologi sumatera
 contoh : implementasi pada journal.php
 
 # contoh data result
-``` javascript
+``` html
 	
 object(stdClass)#3 (9) {
   ["id"]=>
@@ -39,12 +39,12 @@ object(stdClass)#3 (9) {
   ["ref_apps"]=>
   array(1) {
     [0]=>
-    string(24) "siakad_97327d0790190fd16"
+    string(24) "...."
   }
   ["apps"]=>
   array(1) {
     [0]=>
-    string(24) "siakad_97327d0790190fd16"
+    string(24) "..."
   }
   ["level"]=>
   array(1) {
